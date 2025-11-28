@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Rellotge Orbital Pomodoro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Contenidor principal 300x150 -->
+  <div id="app">
+    <!-- Aquí p5.js inserirà el canvas del rellotge -->
+    <div id="sketch-holder"></div>
+
+    <!-- Text de fase del Pomodoro (amagat per defecte via JS) -->
+    <p id="faseActual">Treball</p>
+
+    <!-- Botons de control -->
+    <div id="controls">
+      <button id="btnStart">Iniciar</button>
+      <button id="btnPause">Pausa</button>
+      <button id="btnReset">Reinicia</button>
+    </div>
+  </div>
+
+  <!-- p5.js i codi del rellotge -->
+  <script src="p5.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

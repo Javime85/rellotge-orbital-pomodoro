@@ -1,0 +1,85 @@
+/* Cos del popup: mida fixa i fons suau */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at top left, #f5fbff 0%, #e3f0ff 40%, #dde8f7 100%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+/* Targeta principal */
+#app {
+  width: 300px;
+  height: 150px;
+  margin: 0;
+  padding: 6px 8px 8px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow:
+    0 6px 14px rgba(15, 35, 95, 0.20),
+    0 0 0 1px rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+/* Contenidor del canvas */
+#sketch-holder {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  border-radius: 14px;
+  background: #f7fbff;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.9),
+    inset 0 8px 14px rgba(166, 189, 228, 0.45);
+}
+
+#sketch-holder canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Text de fase del Pomodoro */
+#faseActual {
+  margin: 0 0 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #f04a4a;
+}
+
+/* -------- BOTONS -------- */
+
+#controls {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+#controls button {
+  flex: 1;
+  padding: 4px 0;
+  border-radius: 999px;
+  border: none;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow:
+    0 4px 8px rgba(110, 137, 170, 0.22),
+    0 0 0 1px rgba(255, 255, 255, 0.75);
+}
+
+#btnStart { background: #ff5a5f; color: #ffffff; }
+#btnPause { background: #f0f3fb; color: #35506f; }
+#btnReset { background: #e3f1ff; color: #35629c; }
+
+#controls button:active {
+  transform: translateY(1px);
+  box-shadow:
+    0 3px 6px rgba(110, 137, 170, 0.30),
+    0 0 0 1px rgba(255, 255, 255, 0.85);
+}

@@ -31,12 +31,6 @@ Extensió de navegador Firefox (Manifest V3) que combina un **rellotge orbital a
 - **Pausa**: atura temporitzador (manté progrés).
 - **Reinicia**: torna a estat inicial.
 
-## 📱 Captures
-
-| Estat inicial | En execució (Treball) | Descans curt |
-|---------------|----------------------|--------------|
-| ![Inicial](screenshots/initial.png) | ![Treball](screenshots/work.png) | ![Descans](screenshots/short.png) |
-
 ## 🛠 Tecnologies
 
 p5.js + HTML5 Audio + localStorage + Manifest V3
@@ -65,6 +59,18 @@ p5.js + HTML5 Audio + localStorage + Manifest V3
 | Descans llarg| `long.mp3`| [Uppbeat](https://uppbeat.io/sfx/game-ui-level-unlock/166805/58158) | Uppbeat Free License   |
 
 **Atribució ZapSplat**: sound effects obtained from [zapsplat.com](https://www.zapsplat.com).
+
+## 🖼 Fonts de les imatges
+
+| Fitxer                  | Ús                    | Origen / Autor                                                                 | Llicència                                |
+|-------------------------|-----------------------|-------------------------------------------------------------------------------|------------------------------------------|
+| `assets/work.png`       | Icona fase de treball | [Freepik – Information icon](https://www.freepik.com/free-vector/man-safety-vest-is-holding-pickaxe_256078407.htm#fromView=search&page=1&position=22&uuid=5b929706-8e6f-436a-911f-87c7f63459cf&query=persona+trabajando+mina)                            | Freepik Free License (atribució requerida) |
+| `assets/shortbreak.png` | Icona descans curt    | [Freepik – Information icon](https://www.freepik.com/free-vector/young-girl-watching-movie-woman-lying-sofa-with-tablet-smiling-teenager-having-fun-surfing-internet_23591864.htm#fromView=search&page=1&position=25&uuid=f22a93bc-ccfc-43d9-b369-cf75cac07b46&query=persona+durmiendo+sofa)                      | Freepik Free License (atribució requerida) |
+| `assets/longbreak.png`  | Icona descans llarg   | [Freepik – Information icon](http://freepik.com/free-vector/cute-unicorn-sleeping-moon-cartoon-vector-illustration-animal-space-concept-isolated-vector-flat-cartoon-style_10336144.htm#fromView=search&page=1&position=1&uuid=f5f0248b-ff99-46e8-8bac-c257814c39be&query=luna+dormida)                       | Freepik Free License (atribució requerida) |
+
+**Atribució Freepik**: icons designed by Freepik – free for use with attribution. 
+Més informació de llicència: https://support.freepik.com/s/topic/0TO3V000000Cla4WAC/licenses
+
 
 ## 📚 Documentació acadèmica
 
